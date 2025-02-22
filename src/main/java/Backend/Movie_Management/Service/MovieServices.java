@@ -1,4 +1,7 @@
 package Backend.Movie_Management.Service;
 
-public class MovieServices {
+import org.springframework.stereotype.Service;
+
+@Service
+public class MovieServices implements MovieServicesInterface{
 }

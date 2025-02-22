@@ -1,4 +1,7 @@
 package Backend.Movie_Management.Service;
 
-public class UserServices {
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserServices implements UserServicesInterface{
 }
